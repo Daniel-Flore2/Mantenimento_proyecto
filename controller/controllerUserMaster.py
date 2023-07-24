@@ -13,7 +13,8 @@ crear_tabla()
 CORS(app3_bp)
 
 get_all = ("SELECT * FROM usuariosMaster")
-secret_key = 'your-secret-key'  # Replace with your own secret key
+secret_key = 'your-secret-key'
+# Replace with your own secret key
 
 # Decorador para verificar el token de autenticación
 def token_required(f):
